@@ -1,0 +1,27 @@
+.nav {
+  width: 15%;
+  min-width: 140px;
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  color: $primary-color;
+
+
+  ul, ol {
+    list-style-type: none; // Remove bullets
+
+    a {
+      color: $primary-color; // Use the primary color for link and visited states
+      text-decoration: none; // No underline
+
+      &:hover {
+        text-decoration: underline; // Underline on hover only
+      }
+
+      &:visited {
+        color: #551A8B; // Links color change once. visited
+      }
+    }
+  }
+}

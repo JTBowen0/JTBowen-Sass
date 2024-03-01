@@ -1,0 +1,46 @@
+.content {
+  > * {
+    padding-left: 30px;
+  }
+  width: 115%;
+  min-height: 1050px;
+  min-width: 900px;
+  background-color: $primary-color;
+
+  p, ul, ol {
+    font-size: 1.8rem; // Increasing font size
+    line-height: 1.5; // Increasing line spacing
+  }
+
+  p {
+    width: 55%;
+    min-width: 550px;
+    color: aliceblue;
+  }
+
+  img, video {
+  height: 350px;
+  width: 550px;
+  margin-bottom: 30px;
+  }
+
+  ul { // Adjusting show list position and font size
+    list-style-position: inside;
+    text-align: left;
+    width: 550px;
+    font-size: 1.6rem;
+  }
+
+  a {
+    color: #FFA500; // Sets the link color to orange
+    text-decoration: underline; // Ensures links are underlined by default
+    }
+  
+  a:hover {
+    text-decoration: none; // Removes underline while hovering over
+    }
+  
+  a:visited {
+    color: darken(#FFA500, 10%); // Darkens the link color once visited
+    }
+  }
